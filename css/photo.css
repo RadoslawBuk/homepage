@@ -1,0 +1,26 @@
+.photo__button {
+    background-color: #ffffffb0;
+    padding: 10px 13px;
+    border: 1px solid #466d50;
+    border-radius: 12px;
+    font-size: 15px;
+    color: #164420d8;
+    box-shadow: 2px 2px 7px 1px #a3a3a3;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.photo__button:hover {
+    border: 1px solid #c3c3c3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo__image {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.hiddenImage {
+    display: none;
+}

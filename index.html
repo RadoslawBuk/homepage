@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/photo.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Rajdhani:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="generalLook">
+    <header class="mainHeader">E-wizytówka</header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#O-mnie">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Wykształcenie-i-pracazawodowa">Wykształcenie i praca
+                    zawodowa</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Zainteresowania">Zainteresowania</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <section class="photo">
+        <img class="photo__image js-image" width="250" height="300"
+            src="https://i.postimg.cc/MpSHLvB2/156822698-102917788534255-3428193200116202020-n.jpg" alt="Radek Buk">
+            <button class="photo__button js-button">Ukryj zdjęcie</button>
+        </section>
+        <section class="section" id="O-mnie">
+            <h2 class="section__header">O mnie</h2>
+            <p>Nazywam się <b>Radosław Buk</b>. Mam 35 lat. Pochodzę z małej podrzeszowskiej miejscowości Łąka,
+                założonej
+                jeszcze przez Kazimierza Wielkiego w XIV w. Jak pisze ksiądz W. Puchalski w swoich <em>„Dziejach
+                    Łąki”</em>
+                z
+                1892 r.: <i>„miał tu król ten bogatą stadninę, co sobie po szerokich łąkach tutejszych hasała
+                    swobodnie.”</i>
+                Moja rodzinna miejscowość słynie również z zabytkowego kościoła z końca XVIII w. oraz zespołu pałacowego
+                z
+                otaczającym go kompleksem parkowym.</p>
+        </section>
+        <section class="section" id="Wykształcenie-i-pracazawodowa">
+            <h2 class="section__header">Wykształcenie i praca zawodowa</h2>
+            <p>Skończyłem studia ekonomiczne, a następnie uzyskałem tytuł zawodowy technika rachunkowości. Pracowałem
+                już od
+                czasów studenckich w handlu stacjonarnym, później e-commerce. Przez jakiś czas prowadziłem kilka blogów
+                firmowych oraz fanpejdży w mediach społecznościowych. Obecnie zajmuje się rozliczaniem sprzedaży
+                internetowej w
+                sklepie online z asortymentem sportowo – turystycznym. Zawsze ciekawiła mnie branża IT, stąd moja
+                obecność
+                na
+                kursie w <strong>yuocode</strong>. </p>
+        </section>
+        <section class="section" id="Zainteresowania">
+            <h2 class="section__header">Zainteresowania</h2>
+            <p>Wolne chwile lubię spędzać aktywnie na świeżym powietrzu przemierzając okolicę na rowerze szosowym lub z
+                paczką
+                przyjaciół podróżować po nieznanych nam jeszcze miejscach. W domowym zaciszu chętnie czytam książki
+                historyczne
+                oraz oglądam filmy i seriale na popularnych platformach stremingowych. Kocham słuchanie muzyki, która
+                pozwala mi
+                odpocząć psychicznie i zregenerować siły po nawet najcięższym dniu. </p>
+        </section>
+
+        <div class=tableContainer>
+            <table class="table">
+                <caption class="table__title">Moje ulubione numery 🎧</caption>
+                <tr>
+                    <th scope="col" class="table__cell table__cell--header">Tytuł</th>
+                    <th scope="col" class="table__cell table__cell--header">Wykonawca</th>
+                    <th scope="col" class="table__cell table__cell--header">Album</th>
+                </tr>
+                <tr>
+                    <th scope="row" class="table__cell table__cell--rowHeader">Winna</th>
+                    <td class="table__cell">Agnieszka Chylińska</td>
+                    <td class="table__cell">Winna</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table__cell table__cell--rowHeader">Koła czasu</th>
+                    <td class="table__cell">O.N.A.</td>
+                    <td class="table__cell">Modlishka</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table__cell table__cell--rowHeader">Whitecaps</th>
+                    <td class="table__cell">The Rumjacks</td>
+                    <td class="table__cell">Split</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu
+            rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz.
+            1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016
+            r.</p>
+    </footer>
+</body>
+
+</html>
