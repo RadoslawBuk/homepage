@@ -1,6 +1,6 @@
 # Radosław Buk - moja strona
 
-![Radek](https://i.postimg.cc/MpSHLvB2/156822698-102917788534255-3428193200116202020-n.jpg)
+![Radek](gifs/AnimationMe.gif)
 
 ## Demo
 
